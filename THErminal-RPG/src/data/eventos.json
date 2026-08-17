@@ -1,0 +1,103 @@
+{
+  "encontro_floresta_bandido": {
+    "id": "encontro_floresta_bandido",
+    "tipo": "combate",
+    "areas": ["floresta"],
+    "template_narrativo": "No {dia}o dia de jornada, enquanto {nome} avancava pelas sombras da {area_nome}, um vulto saltou de tras das arvores. Era {artigo_inimigo} {inimigo_nome} empunhando {artigo_arma} {arma_inimigo_nome}. Sem palavras, ele avancou.",
+    "inimigo_id": "bandido",
+    "peso": 3
+  },
+  "encontro_floresta_lobo": {
+    "id": "encontro_floresta_lobo",
+    "tipo": "combate",
+    "areas": ["floresta"],
+    "template_narrativo": "A nevoa densa encobria o chao da {area_nome} quando {nome} ouviu um rosnado gutural. {artigo_inimigo_cap} {inimigo_nome} emergiu das sombras com {artigo_arma} {arma_inimigo_nome} reluzentes. Pronto para atacar.",
+    "inimigo_id": "lobo_sombrio",
+    "peso": 3
+  },
+  "encontro_ruinas_esqueleto": {
+    "id": "encontro_ruinas_esqueleto",
+    "tipo": "combate",
+    "areas": ["ruinas"],
+    "template_narrativo": "O eco dos passos de {nome} pelas {area_nome} despertou algo antigo. Dos escombros surgiu {artigo_inimigo} {inimigo_nome} com {artigo_arma} {arma_inimigo_nome}, bloqueando o unico caminho a frente.",
+    "inimigo_id": "esqueleto_armado",
+    "peso": 3
+  },
+  "encontro_ruinas_golem": {
+    "id": "encontro_ruinas_golem",
+    "tipo": "combate",
+    "areas": ["ruinas"],
+    "template_narrativo": "O chao tremeu. Das paredes quebradas das {area_nome}, {artigo_inimigo} {inimigo_nome} se desprendeu como se fosse parte das proprias ruinas, bloqueando o caminho de {nome} com {artigo_arma} {arma_inimigo_nome}.",
+    "inimigo_id": "golem_pedra",
+    "peso": 2
+  },
+  "encontro_torre_servente": {
+    "id": "encontro_torre_servente",
+    "tipo": "combate",
+    "areas": ["torre"],
+    "template_narrativo": "A escuridao da {area_nome} era quase tangivel. De repente, {artigo_inimigo} {inimigo_nome} desceu do teto. {artigo_arma_cap} {arma_inimigo_nome} rasgaram o ar em direcao a {nome}.",
+    "inimigo_id": "servente_vampiro",
+    "peso": 3
+  },
+  "encontro_torre_cavaleiro": {
+    "id": "encontro_torre_cavaleiro",
+    "tipo": "combate",
+    "areas": ["torre"],
+    "template_narrativo": "Guardando a escada para o proximo andar da {area_nome}, {artigo_inimigo} {inimigo_nome} permanecia imavel como estatua. Ao sentir a presenca de {nome}, lentamente voltou {artigo_arma} {arma_inimigo_nome} na sua direcao.",
+    "inimigo_id": "cavaleiro_morto",
+    "peso": 2
+  },
+  "encontro_aldeia_zumbi": {
+    "id": "encontro_aldeia_zumbi",
+    "tipo": "combate",
+    "areas": ["aldeia"],
+    "template_narrativo": "Ao caminhar pela {area_nome}, {nome} notou um habitante que parecia perdido. Quando se aproximou, percebeu que era {artigo_inimigo} {inimigo_nome} — os olhos opacos e os {arma_inimigo_nome} revelavam o que restava daquele ser.",
+    "inimigo_id": "zumbi_aldeao",
+    "peso": 3
+  },
+  "evento_mercador": {
+    "id": "evento_mercador",
+    "tipo": "escolha",
+    "areas": ["aldeia", "floresta"],
+    "template_narrativo": "Na beira do caminho da {area_nome}, {nome} encontrou um velho mercador encurvado sob o peso de um fardo enorme. 'Boas mercadorias para um {classe} corajoso', ele murmurou, abrindo um saco surrado.",
+    "opcoes": [
+      { "id": "comprar_vida", "texto": "Comprar Pocao de Vida (15 moedas)", "acao": "comprar_item", "item_id": "pocao_vida", "custo": 15 },
+      { "id": "comprar_mana", "texto": "Comprar Pocao de Mana (12 moedas)", "acao": "comprar_item", "item_id": "pocao_mana", "custo": 12 },
+      { "id": "ignorar", "texto": "Nao tenho tempo. Seguir em frente.", "acao": "continuar" }
+    ],
+    "peso": 2
+  },
+  "evento_fogueira": {
+    "id": "evento_fogueira",
+    "tipo": "escolha",
+    "areas": ["floresta", "ruinas"],
+    "template_narrativo": "Entre as sombras da {area_nome}, {nome} avistou o brilho de uma fogueira esquecida. As brasas ainda estavam vivas. O calor era tentador depois de tanto caminhar.",
+    "opcoes": [
+      { "id": "descansar", "texto": "Descansar junto a fogueira (recuperar 20 de vida)", "acao": "curar_vida", "valor": 20 },
+      { "id": "seguir", "texto": "Nao arriscar. Seguir em frente.", "acao": "continuar" }
+    ],
+    "peso": 2
+  },
+  "evento_relicario": {
+    "id": "evento_relicario",
+    "tipo": "escolha",
+    "areas": ["ruinas"],
+    "template_narrativo": "Escondido atras de uma parede desmoronada das {area_nome}, {nome} encontrou um relicario coberto de teias. Dentro havia algo que brilhava fracamente com luz propria.",
+    "opcoes": [
+      { "id": "pegar", "texto": "Abrir o relicario e pegar o item", "acao": "ganhar_item", "item_id": "pocao_vida_maior" },
+      { "id": "deixar", "texto": "Deixar como esta. Pode ser armadilha.", "acao": "continuar" }
+    ],
+    "peso": 1
+  },
+  "evento_voz_sombra": {
+    "id": "evento_voz_sombra",
+    "tipo": "escolha",
+    "areas": ["torre"],
+    "template_narrativo": "Uma voz ecoa pelas paredes da {area_nome}: 'Entregue sua alma voluntariamente e sua morte sera rapida, {nome}.' Um {classe} como voce nao recua — mas ha mais de uma forma de vencer.",
+    "opcoes": [
+      { "id": "recusar", "texto": "Recusar. Jamais cederei.", "acao": "continuar", "flag": "recusou_vampiro" },
+      { "id": "fingir", "texto": "Fingir aceitar para ganhar tempo", "acao": "continuar", "flag": "fingiu_aceitar" }
+    ],
+    "peso": 1
+  }
+}

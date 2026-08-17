@@ -1,0 +1,33 @@
+{
+  "abertura": "A lua estava cheia quando voce percebeu que algo estava errado no seu quarto.\nAs sombras nos cantos se moviam sozinhas. O ar cheirava a terra molhada e sangue antigo.\nEntao voce o viu — encostado na parede, olhos como brasas vermelhas,\num sorriso que revelava presas alongadas.\n\nO Vampiro Ancestral havia chegado ao mundo dos vivos.\nE seu primeiro alvo era voce.",
+
+  "intro_classe": "Mas voce nao e uma pessoa comum.\nAntes de encarar esse terror, precisamos saber quem voce e.",
+
+  "crestmoor_primeiro_dia": "Voce foge do quarto e chega a Crestmoor — a aldeia mais proxima.\nUma nevoa estranha encobre as ruas. Moradores caminham sem destino, olhos vazios.\nAlguns ja nao sao mais humanos.\n\nEste e seu ponto de partida.\nAqui voce pode descansar, comprar itens e se preparar para o que vira.",
+
+  "intro_floresta": "A Floresta das Almas fica ao norte da aldeia.\nDizem que o Vampiro Ancestral dormia la por seculos antes de ser despertado.\nAs arvores parecem sussurrar nomes. O chao range mesmo sem vento.\nCoisas se movem entre os troncos.",
+
+  "intro_ruinas": "Alem da floresta ficam as Ruinas de Ardenmoor —\nos restos de uma cidade que tentou deter o vampiro uma vez.\nFalharam. Agora so restam pedras, magia residual\ne guardioes que ainda obedecem a ordens milenares.",
+
+  "intro_torre": "A Torre do Sangue se ergue no centro de tudo,\nvista de qualquer ponto da regiao como uma cicatriz no horizonte.\nE la que o Vampiro Ancestral esta reconstituindo seu poder.\nSe voce nao o detiver aqui, nao havera amanha para Crestmoor.",
+
+  "boss_floresta": "Uma pressao estranha enche o ar.\nAs arvores recuam como se tivessem medo.\nDo centro da floresta, ele emerge — o Lorde da Floresta.\nSeu corpo e uma mistura de carne e madeira, galhos saindo de onde deveriam haver ossos.\nEle nao fala. Apenas avanca.",
+
+  "vitoria_floresta": "Com a queda do Lorde da Floresta, a nevoa entre as arvores comeca a dissipar.\nOs sussurros param.\nA floresta, por ora, esta quieta.",
+
+  "boss_ruinas": "O chao range. As pedras vibram.\nDas profundezas das ruinas, o Guardiao desperta de seu sono milenar.\nFoi selado aqui para proteger algo — e voce esta no caminho.\nSeus olhos nao tem pupils. Apenas luz branca e fria.",
+
+  "vitoria_ruinas": "O Guardiao desaba, e com ele, as ultimas defesas das ruinas.\nEntre os escombros, voce encontra um fragmento de mapa —\nele aponta para a Torre do Sangue.",
+
+  "boss_vampiro": "Ele esta te esperando.\nO Vampiro Ancestral sentado em um trono de ossos, como se soubesse que voce viria.\n'Voce e corajoso', diz ele, levantando devagar.\n'Ou idiota. Nao faz diferenca.'\nEntao ele ataca.",
+
+  "vitoria_vampiro_padrao": "O Vampiro Ancestral cai.\nSua forma se dissolve em fumaca negra, as chamas vermelhas dos olhos se apagam.\nA nevoa sobre Crestmoor comeca a dissipar lentamente.\nPela primeira vez em dias, o ceu esta limpo.\n\nVoce conseguiu.",
+
+  "vitoria_vampiro_astuto": "O Vampiro Ancestral cai — enganado pela propria arrogancia.\nVoce usou o tempo que ganhou para encontrar sua fraqueza e atacar no momento certo.\nEnquanto a nevoa some, voce percebe que a vitoria tem um gosto diferente\nquando conquistada pela astucia.",
+
+  "game_over": "A escuridao engole tudo.\nVoce caiu.\n\nMas a historia nao acaba aqui.\nCrestmoor ainda precisa de um heroi.",
+
+  "game_over_torre": "A escuridao da Torre do Sangue engole tudo.\nO Vampiro Ancestral sorri enquanto voce cai.\n\nMas nao e assim que a historia termina.\nVoce vai tentar de novo.",
+
+  "creditos": "████████╗██╗  ██╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗\n╚══██╔══╝██║  ██║██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║\n   ██║   ███████║█████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║\n   ██║   ██╔══██║██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║\n   ██║   ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗\n   ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝\n\n   RPG de terminal. Desenvolvido com JavaScript e OOP.\n   A historia continua..."
+}

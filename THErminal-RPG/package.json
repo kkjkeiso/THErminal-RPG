@@ -1,0 +1,12 @@
+{
+  "name": "terminal-elden-ring",
+  "version": "1.0.0",
+  "description": "RPG de terminal em JavaScript",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "guerreiro": {
+    "id": "guerreiro",
+    "nome": "Guerreiro",
+    "descricao": "Veterano forjado em batalha. Alta resistência e força bruta.",
+    "nivelInicial": 1,
+    "atributos": {
+      "vigor": 14,
+      "mente": 9,
+      "vitalidade": 12,
+      "forca": 16,
+      "destreza": 10,
+      "inteligencia": 7,
+      "fe": 8,
+      "arcano": 7
+    },
+    "armaInicial": "espada_ferro",
+    "vidaBase": 120,
+    "manaBase": 30,
+    "habilidade": {
+      "nome": "Golpe Devastador",
+      "descricao": "Ataque brutalmente poderoso que ignora 5 de defesa do alvo.",
+      "custo_mana": 10,
+      "tipo": "ataque_especial",
+      "bonus_dano": 8,
+      "ignorar_defesa": 5
+    }
+  },
+  "mago": {
+    "id": "mago",
+    "nome": "Mago",
+    "descricao": "Erudito das artes arcanas. Destrói inimigos com magia mas é frágil.",
+    "nivelInicial": 1,
+    "atributos": {
+      "vigor": 9,
+      "mente": 15,
+      "vitalidade": 9,
+      "forca": 8,
+      "destreza": 12,
+      "inteligencia": 16,
+      "fe": 7,
+      "arcano": 9
+    },
+    "armaInicial": "cajado_comum",
+    "vidaBase": 90,
+    "manaBase": 80,
+    "habilidade": {
+      "nome": "Bola de Fogo",
+      "descricao": "Lança uma esfera de chamas que causa dano mágico com base em Inteligência.",
+      "custo_mana": 20,
+      "tipo": "magia_dano",
+      "bonus_dano": 12,
+      "scaling": "inteligencia",
+      "critico_chance": 0.3
+    }
+  },
+  "vagabundo": {
+    "id": "vagabundo",
+    "nome": "Vagabundo",
+    "descricao": "Errante de vida dura. Atributos equilibrados e sorte imprevisível.",
+    "nivelInicial": 1,
+    "atributos": {
+      "vigor": 10,
+      "mente": 11,
+      "vitalidade": 10,
+      "forca": 11,
+      "destreza": 13,
+      "inteligencia": 10,
+      "fe": 10,
+      "arcano": 12
+    },
+    "armaInicial": "faca_enferrujada",
+    "vidaBase": 95,
+    "manaBase": 50,
+    "habilidade": {
+      "nome": "Sorte do Mendigo",
+      "descricao": "Invoca a sorte dos desesperados: 50% cura 20 de vida, 50% causa dano critico dobrado.",
+      "custo_mana": 8,
+      "tipo": "sorte",
+      "cura": 20,
+      "bonus_dano": 16
+    }
+  }
+}

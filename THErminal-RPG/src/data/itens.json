@@ -1,0 +1,38 @@
+{
+  "pocao_vida": {
+    "id": "pocao_vida",
+    "nome": "Poção de Vida",
+    "tipo": "consumivel",
+    "descricao": "Restaura 30 pontos de vida.",
+    "efeito": "curar_vida",
+    "valor": 30,
+    "preco": 15
+  },
+  "pocao_mana": {
+    "id": "pocao_mana",
+    "nome": "Poção de Mana",
+    "tipo": "consumivel",
+    "descricao": "Restaura 20 pontos de mana.",
+    "efeito": "curar_mana",
+    "valor": 20,
+    "preco": 12
+  },
+  "pocao_vida_maior": {
+    "id": "pocao_vida_maior",
+    "nome": "Poção de Vida Maior",
+    "tipo": "consumivel",
+    "descricao": "Restaura 60 pontos de vida.",
+    "efeito": "curar_vida",
+    "valor": 60,
+    "preco": 30
+  },
+  "flask_sangue": {
+    "id": "flask_sangue",
+    "nome": "Frasco de Sangue Ancestral",
+    "tipo": "consumivel",
+    "descricao": "Restaura toda a vida. Item raro deixado pelos guardiões.",
+    "efeito": "curar_vida_total",
+    "valor": 9999,
+    "preco": 0
+  }
+}

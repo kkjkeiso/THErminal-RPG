@@ -1,0 +1,83 @@
+{
+  "espada_ferro": {
+    "id": "espada_ferro",
+    "nome": "Espada de Ferro",
+    "tipo": "espada",
+    "dano": 10,
+    "scaling": "forca",
+    "requisitos": { "forca": 10 },
+    "descricao": "Lâmina comum mas confiável. Escala com Força."
+  },
+  "cajado_comum": {
+    "id": "cajado_comum",
+    "nome": "Cajado Comum",
+    "tipo": "cajado",
+    "dano": 6,
+    "scaling": "inteligencia",
+    "requisitos": { "inteligencia": 10 },
+    "descricao": "Cajado de madeira com cristal fosco na ponta. Escala com Inteligência."
+  },
+  "faca_enferrujada": {
+    "id": "faca_enferrujada",
+    "nome": "Faca Enferrujada",
+    "tipo": "faca",
+    "dano": 7,
+    "scaling": "destreza",
+    "requisitos": { "destreza": 8 },
+    "descricao": "Velha mas ainda afiada onde importa. Escala com Destreza."
+  },
+  "machado_guerra": {
+    "id": "machado_guerra",
+    "nome": "Machado de Guerra",
+    "tipo": "machado",
+    "dano": 14,
+    "scaling": "forca",
+    "requisitos": { "forca": 14 },
+    "descricao": "Pesado. Quem aguenta usar, destrói. Escala com Força."
+  },
+  "cajado_sombrio": {
+    "id": "cajado_sombrio",
+    "nome": "Cajado Sombrio",
+    "tipo": "cajado",
+    "dano": 10,
+    "scaling": "inteligencia",
+    "requisitos": { "inteligencia": 14 },
+    "descricao": "Entalhado com runas de trevas. Ressoa com poder arcano."
+  },
+  "adaga_sombra": {
+    "id": "adaga_sombra",
+    "nome": "Adaga da Sombra",
+    "tipo": "faca",
+    "dano": 9,
+    "scaling": "destreza",
+    "requisitos": { "destreza": 12 },
+    "descricao": "Lâmina negra que some na escuridão. Escala com Destreza."
+  },
+  "lanca_cavaleiro": {
+    "id": "lanca_cavaleiro",
+    "nome": "Lança do Cavaleiro",
+    "tipo": "lanca",
+    "dano": 12,
+    "scaling": "forca",
+    "requisitos": { "forca": 12 },
+    "descricao": "Comprida, precisa, letal a distância. Escala com Força."
+  },
+  "grimorio_sangue": {
+    "id": "grimorio_sangue",
+    "nome": "Grimório de Sangue",
+    "tipo": "cajado",
+    "dano": 8,
+    "scaling": "arcano",
+    "requisitos": { "arcano": 13 },
+    "descricao": "Encadernado em pele. Cada feitiço drena um pouco do usuário. Escala com Arcano."
+  },
+  "cajado_ancestral": {
+    "id": "cajado_ancestral",
+    "nome": "Cajado Ancestral do Vampiro",
+    "tipo": "cajado",
+    "dano": 18,
+    "scaling": "inteligencia",
+    "requisitos": { "inteligencia": 18 },
+    "descricao": "Forjado no primeiro amanhecer. Drena a alma de quem ataca. Escala com Inteligência."
+  }
+}
